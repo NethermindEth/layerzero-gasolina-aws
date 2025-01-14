@@ -30,7 +30,6 @@
     "devDependencies": {
         "@types/node": "10.17.27",
         "aws-cdk": "^2.62.1",
-        "ts-node": "^9.0.0",
         "@trivago/prettier-plugin-sort-imports": "^4.0.0",
         "@vue/compiler-sfc": "^3.x",
         "prettier": "2.8.3",
