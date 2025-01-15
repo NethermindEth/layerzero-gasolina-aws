@@ -114,8 +114,8 @@ export const createGasolinaService = (props: CreateGasolinaServiceProps) => {
         ),
         serviceName,
         workerRole: workerRole,
-        minimumTaskCount: 20,
-        maximumTaskCount: 50,
+        minimumTaskCount: 2,
+        maximumTaskCount: 20,
         environment: {
             NPM_TOKEN: 'foobar',
             [ENV_VAR_NAMES.LZ_ENV]: props.environment,
