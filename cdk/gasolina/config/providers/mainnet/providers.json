@@ -186,6 +186,12 @@
             "https://rpc.ebi.xyz"
         ]
     },
+    "edu": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc.edu-chain.raas.gelato.cloud"
+        ]
+    },
     "ethereum": {
         "quorum": 1,
         "uris": [
