@@ -512,6 +512,12 @@
             "https://evm-rpc.sei-apis.com"
         ]
     },
+    "solana": {
+        "quorum": 1,
+        "uris": [
+            "https://solana-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
+    },
     "soneium": {
         "quorum": 1,
         "uris": [
