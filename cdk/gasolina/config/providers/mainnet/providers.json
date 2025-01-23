@@ -258,6 +258,12 @@
             "https://rpc.ankr.com/gnosis"
         ]
     },
+    "goat": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc.goat.network"
+        ]
+    },
     "gravity": {
         "quorum": 1,
         "uris": [
