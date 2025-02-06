@@ -1,251 +1,251 @@
 {
     "abstract": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.fsd.adfasd32442ds.com/"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.fsd.adfasd32442ds.com/"
+        ]
     },
     "ape": {
-      "quorum": 1,
-      "uris": [
-        "https://apechain-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://rpc.apechain.com/http"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://apechain-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://rpc.apechain.com/http"
+        ]
     },
     "aptos": {
-      "quorum": 1,
-      "uris": [
-        "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
+        ]
     },
     "arbitrum": {
-      "quorum": 1,
-      "uris": [
-        "https://arbitrum-mainnet.infura.io/v3/${infura_api_key}",
-        "https://arb-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://arbitrum.llamarpc.com",
-        "https://arbitrum.drpc.org",
-        "https://1rpc.io/arb",
-        "https://arbitrum-one-rpc.publicnode.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://arbitrum-mainnet.infura.io/v3/${infura_api_key}",
+            "https://arb-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://arbitrum.llamarpc.com",
+            "https://arbitrum.drpc.org",
+            "https://1rpc.io/arb",
+            "https://arbitrum-one-rpc.publicnode.com"
+        ]
     },
     "astar": {
-      "quorum": 1,
-      "uris": [
-        "https://evm.astar.network",
-        "https://astar.public.blastapi.io",
-        "https://1rpc.io/astr",
-        "https://astar.api.onfinality.io/public",
-        "https://astar-rpc.dwellir.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://evm.astar.network",
+            "https://astar.public.blastapi.io",
+            "https://1rpc.io/astr",
+            "https://astar.api.onfinality.io/public",
+            "https://astar-rpc.dwellir.com"
+        ]
     },
     "aurora": {
-      "quorum": 1,
-      "uris": [
-        "https://mainnet.aurora.dev",
-        "https://endpoints.omniatech.io/v1/aurora/mainnet/public",
-        "https://1rpc.io/aurora",
-        "https://aurora.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.aurora.dev",
+            "https://endpoints.omniatech.io/v1/aurora/mainnet/public",
+            "https://1rpc.io/aurora",
+            "https://aurora.drpc.org"
+        ]
     },
     "avalanche": {
-      "quorum": 1,
-      "uris": [
-        "https://avalanche-mainnet.infura.io/v3/${infura_api_key}",
-        "https://avax-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://avalanche-mainnet.infura.io/v3/${infura_api_key}",
+            "https://avax-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "base": {
-      "quorum": 1,
-      "uris": [
-        "https://base-mainnet.infura.io/v3/${infura_api_key}",
-        "https://base-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://1rpc.io/base",
-        "https://base-rpc.publicnode.com",
-        "https://mainnet.base.org",
-        "https://base.llamarpc.com",
-        "https://base-pokt.nodies.app",
-        "https://base.meowrpc.com",
-        "https://developer-access-mainnet.base.org",
-        "https://base.blockpi.network/v1/rpc/public",
-        "https://base-mainnet.public.blastapi.io",
-        "https://gateway.tenderly.co/public/base",
-        "https://base.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://base-mainnet.infura.io/v3/${infura_api_key}",
+            "https://base-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://1rpc.io/base",
+            "https://base-rpc.publicnode.com",
+            "https://mainnet.base.org",
+            "https://base.llamarpc.com",
+            "https://base-pokt.nodies.app",
+            "https://base.meowrpc.com",
+            "https://developer-access-mainnet.base.org",
+            "https://base.blockpi.network/v1/rpc/public",
+            "https://base-mainnet.public.blastapi.io",
+            "https://gateway.tenderly.co/public/base",
+            "https://base.drpc.org"
+        ]
     },
     "bb1": {
-      "quorum": 1,
-      "uris": [
-        "https://mainnet.rpc.inevm.com/http"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.rpc.inevm.com/http"
+        ]
     },
     "bera": {
-      "quorum": 1,
-      "uris": [
-        {
-          "uri": "https://compatible-omniscient-glade.furtim-network.quiknode.pro/26d9d4933ff2660ac936e4a5a3442e42a10ec37c",
-          "headers": {
-            "Authorization": "Bearer ${bera_rpc_jwt}"
-          }
-        }
-      ]
+        "quorum": 1,
+        "uris": [
+            {
+                "headers": {
+                    "Authorization": "Bearer ${bera_bearer_token}"
+                },
+                "uri": "https://compatible-omniscient-glade.furtim-network.quiknode.pro/26d9d4933ff2660ac936e4a5a3442e42a10ec37c"
+            }
+        ]
     },
     "bitlayer": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.bitlayer.org",
-        "https://rpc.bitlayer-rpc.com",
-        "https://rpc.ankr.com/bitlayer",
-        "https://rpc-bitlayer.rockx.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.bitlayer.org",
+            "https://rpc.bitlayer-rpc.com",
+            "https://rpc.ankr.com/bitlayer",
+            "https://rpc-bitlayer.rockx.com"
+        ]
     },
     "blast": {
-      "quorum": 1,
-      "uris": [
-        "https://blast-mainnet.infura.io/v3/${infura_api_key}",
-        "https://rpc.blast.io",
-        "https://rpc.ankr.com/blast",
-        "https://blast.din.dev/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://blast-mainnet.infura.io/v3/${infura_api_key}",
+            "https://rpc.blast.io",
+            "https://rpc.ankr.com/blast",
+            "https://blast.din.dev/rpc"
+        ]
     },
     "bob": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.gobob.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.gobob.xyz"
+        ]
     },
     "bsc": {
-      "quorum": 1,
-      "uris": [
-        "https://bsc-mainnet.infura.io/v3/${infura_api_key}",
-        "https://bnb-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://bsc-mainnet.infura.io/v3/${infura_api_key}",
+            "https://bnb-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "canto": {
-      "quorum": 1,
-      "uris": [
-        "https://canto-rpc.ansybl.io",
-        "https://canto.slingshot.finance",
-        "https://mainnode.plexnode.org:8545"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://canto-rpc.ansybl.io",
+            "https://canto.slingshot.finance",
+            "https://mainnode.plexnode.org:8545"
+        ]
     },
     "celo": {
-      "quorum": 1,
-      "uris": [
-        "https://celo-mainnet.infura.io/v3/${infura_api_key}",
-        "https://celo.drpc.org",
-        "https://rpc.ankr.com/celo"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://celo-mainnet.infura.io/v3/${infura_api_key}",
+            "https://celo.drpc.org",
+            "https://rpc.ankr.com/celo"
+        ]
     },
     "codex": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.codex.is"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.codex.is"
+        ]
     },
     "conflux": {
-      "quorum": 1,
-      "uris": [
-        "https://evm.confluxrpc.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://evm.confluxrpc.com"
+        ]
     },
     "coredao": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.coredao.org/",
-        "https://rpc.ankr.com/core",
-        "https://core.drpc.org",
-        "https://1rpc.io/core"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.coredao.org/",
+            "https://rpc.ankr.com/core",
+            "https://core.drpc.org",
+            "https://1rpc.io/core"
+        ]
     },
     "cyber": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.cyber.co",
-        "https://cyber.alt.technology"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.cyber.co",
+            "https://cyber.alt.technology"
+        ]
     },
     "degen": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.degen.tips",
-        "https://degen-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.degen.tips",
+            "https://degen-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "dexalot": {
-      "quorum": 1,
-      "uris": [
-        "https://subnets.avax.network/dexalot/mainnet/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://subnets.avax.network/dexalot/mainnet/rpc"
+        ]
     },
     "dfk": {
-      "quorum": 1,
-      "uris": [
-        "https://avax-pokt.nodies.app/ext/bc/q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi/rpc",
-        "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://avax-pokt.nodies.app/ext/bc/q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi/rpc",
+            "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
+        ]
     },
     "dm2verse": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.dm2verse.dmm.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.dm2verse.dmm.com"
+        ]
     },
     "dos": {
-      "quorum": 1,
-      "uris": [
-        "https://main.doschain.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://main.doschain.com"
+        ]
     },
     "ebi": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.ebi.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.ebi.xyz"
+        ]
     },
     "edu": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.edu-chain.raas.gelato.cloud"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.edu-chain.raas.gelato.cloud"
+        ]
     },
     "ethereum": {
-      "quorum": 1,
-      "uris": [
-        "https://mainnet.infura.io/v3/${infura_api_key}",
-        "https://eth-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://eth.llamarpc.com",
-        "https://ethereum-rpc.publicnode.com",
-        "https://rpc.mevblocker.io",
-        "https://rpc.payload.de",
-        "https://eth.meowrpc.com",
-        "https://eth.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.infura.io/v3/${infura_api_key}",
+            "https://eth-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://eth.llamarpc.com",
+            "https://ethereum-rpc.publicnode.com",
+            "https://rpc.mevblocker.io",
+            "https://rpc.payload.de",
+            "https://eth.meowrpc.com",
+            "https://eth.drpc.org"
+        ]
     },
     "etherlink": {
-      "quorum": 1,
-      "uris": [
-        "https://etherlink-rpc.nethermind.io/${infura_api_key}",
-        "https://node.mainnet.etherlink.com",
-        "https://etherlink-mainnet-pub-l5p9tu.zeeve.net/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://etherlink-rpc.nethermind.io/${infura_api_key}",
+            "https://node.mainnet.etherlink.com",
+            "https://etherlink-mainnet-pub-l5p9tu.zeeve.net/rpc"
+        ]
     },
     "fantom": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.fantom.network",
-        "https://rpc2.fantom.network",
-        "https://rpc3.fantom.network"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.fantom.network",
+            "https://rpc2.fantom.network",
+            "https://rpc3.fantom.network"
+        ]
     },
     "flare": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.ankr.com/flare",
-        "https://flare.solidifi.app/ext/C/rpc",
-        "https://flare.rpc.thirdweb.com",
-        "https://flare-bundler.etherspot.io"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.ankr.com/flare",
+            "https://flare.solidifi.app/ext/C/rpc",
+            "https://flare.rpc.thirdweb.com",
+            "https://flare-bundler.etherspot.io"
+        ]
     },
     "flow": {
         "quorum": 1,
@@ -255,285 +255,285 @@
         ]
     },
     "fraxtal": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.frax.com",
-        "https://fraxtal.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.frax.com",
+            "https://fraxtal.drpc.org"
+        ]
     },
     "fuse": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.fuse.io",
-        "https://fuse-pokt.nodies.app"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.fuse.io",
+            "https://fuse-pokt.nodies.app"
+        ]
     },
     "glue": {
-      "quorum": 1,
-      "uris": [
-          "https://rpc.glue.net"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.glue.net"
+        ]
     },
     "gnosis": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.gnosischain.com/",
-        "https://rpc.ankr.com/gnosis"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.gnosischain.com/",
+            "https://rpc.ankr.com/gnosis"
+        ]
     },
     "goat": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.goat.network"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.goat.network"
+        ]
     },
     "gravity": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.gravity.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.gravity.xyz"
+        ]
     },
     "harmony": {
-      "quorum": 1,
-      "uris": [
-        "https://api.s0.t.hmny.io",
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one",
-        "https://hmyone-pokt.nodies.app"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://api.s0.t.hmny.io",
+            "https://api.harmony.one",
+            "https://a.api.s0.t.hmny.io",
+            "https://rpc.ankr.com/harmony",
+            "https://1rpc.io/one",
+            "https://hmyone-pokt.nodies.app"
+        ]
     },
     "hemi": {
-      "quorum": 1,
-      "uris": [
-        "https://7e57304f.rpc.hemi.network/rpc",
-        "https://f5413107.rpc.hemi.network/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://7e57304f.rpc.hemi.network/rpc",
+            "https://f5413107.rpc.hemi.network/rpc"
+        ]
     },
     "ink": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc-gel.inkonchain.com",
-        "https://rpc-gel.inkonchain.com/fd96af67f38f4bf8a137b167171eeddd"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc-gel.inkonchain.com",
+            "https://rpc-gel.inkonchain.com/fd96af67f38f4bf8a137b167171eeddd"
+        ]
     },
     "iota": {
-      "quorum": 1,
-      "uris": [
-        "https://json-rpc.evm.iotaledger.net"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://json-rpc.evm.iotaledger.net"
+        ]
     },
     "islander": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.islander.vana.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.islander.vana.org"
+        ]
     },
     "kava": {
-      "quorum": 1,
-      "uris": [
-        "https://evm.kava.io",
-        "https://kava.api.onfinality.io/public",
-        "https://kava-evm.publicnode.com",
-        "https://kava-pokt.nodies.app",
-        "https://evm.kava.chainstacklabs.com",
-        "https://rpc.ankr.com/kava_evm",
-        "https://evm.kava-rpc.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://evm.kava.io",
+            "https://kava.api.onfinality.io/public",
+            "https://kava-evm.publicnode.com",
+            "https://kava-pokt.nodies.app",
+            "https://evm.kava.chainstacklabs.com",
+            "https://rpc.ankr.com/kava_evm",
+            "https://evm.kava-rpc.com"
+        ]
     },
     "klaytn": {
-      "quorum": 1,
-      "uris": [
-        "https://klaytn.drpc.org",
-        "https://klaytn-pokt.nodies.app",
-        "https://1rpc.io/klay",
-        "https://rpc.ankr.com/klaytn"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://klaytn.drpc.org",
+            "https://klaytn-pokt.nodies.app",
+            "https://1rpc.io/klay",
+            "https://rpc.ankr.com/klaytn"
+        ]
     },
     "lightlink": {
-      "quorum": 1,
-      "uris": [
-        "https://replicator.phoenix.lightlink.io/rpc/v1",
-        "https://endpoints.omniatech.io/v1/lightlink/phoenix/public"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://replicator.phoenix.lightlink.io/rpc/v1",
+            "https://endpoints.omniatech.io/v1/lightlink/phoenix/public"
+        ]
     },
     "manta": {
-      "quorum": 1,
-      "uris": [
-        "https://pacific-rpc.manta.network/http",
-        "https://1rpc.io/manta"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://pacific-rpc.manta.network/http",
+            "https://1rpc.io/manta"
+        ]
     },
     "mantle": {
-      "quorum": 1,
-      "uris": [
-        "https://mantle.publicnode.com",
-        "https://mantle-mainnet.public.blastapi.io",
-        "https://mantle.drpc.org",
-        "https://rpc.ankr.com/mantle",
-        "https://1rpc.io/mantle",
-        "https://rpc.mantle.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mantle.publicnode.com",
+            "https://mantle-mainnet.public.blastapi.io",
+            "https://mantle.drpc.org",
+            "https://rpc.ankr.com/mantle",
+            "https://1rpc.io/mantle",
+            "https://rpc.mantle.xyz"
+        ]
     },
     "masa": {
-      "quorum": 1,
-      "uris": [
-        "https://subnets.avax.network/masanetwork/mainnet/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://subnets.avax.network/masanetwork/mainnet/rpc"
+        ]
     },
     "merlin": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.merlinchain.io",
-        "https://merlin.blockpi.network/v1/rpc/public"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.merlinchain.io",
+            "https://merlin.blockpi.network/v1/rpc/public"
+        ]
     },
     "meter": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.meter.io",
-        "https://meter.blockpi.network/v1/rpc/public"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.meter.io",
+            "https://meter.blockpi.network/v1/rpc/public"
+        ]
     },
     "metis": {
-      "quorum": 1,
-      "uris": [
-        "https://metis-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://metis-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "mode": {
-      "quorum": 1,
-      "uris": [
-        "https://1rpc.io/mode",
-        "https://mainnet.mode.network",
-        "https://mode.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://1rpc.io/mode",
+            "https://mainnet.mode.network",
+            "https://mode.drpc.org"
+        ]
     },
     "moonbeam": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.api.moonbeam.network",
-        "https://moonbeam.publicnode.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.api.moonbeam.network",
+            "https://moonbeam.publicnode.com"
+        ]
     },
     "moonriver": {
-      "quorum": 1,
-      "uris": [
-        "https://moonriver.api.onfinality.io/public",
-        "https://moonriver.unitedbloc.com:2000",
-        "https://moonriver.public.blastapi.io",
-        "https://moonriver-rpc.dwellir.com",
-        "https://moonriver.publicnode.com",
-        "https://rpc.api.moonriver.moonbeam.network"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://moonriver.api.onfinality.io/public",
+            "https://moonriver.unitedbloc.com:2000",
+            "https://moonriver.public.blastapi.io",
+            "https://moonriver-rpc.dwellir.com",
+            "https://moonriver.publicnode.com",
+            "https://rpc.api.moonriver.moonbeam.network"
+        ]
     },
     "morph": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc-quicknode.morphl2.io",
-        "https://rpc.morphl2.io"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc-quicknode.morphl2.io",
+            "https://rpc.morphl2.io"
+        ]
     },
     "mp1": {
-      "quorum": 1,
-      "uris": [
-        "https://maizenet-rpc.usecorn.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://maizenet-rpc.usecorn.com"
+        ]
     },
     "opbnb": {
-      "quorum": 1,
-      "uris": [
-        "https://opbnb.publicnode.com",
-        "https://1rpc.io/opbnb",
-        "https://opbnb-mainnet-rpc.bnbchain.org",
-        "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-        "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://opbnb.publicnode.com",
+            "https://1rpc.io/opbnb",
+            "https://opbnb-mainnet-rpc.bnbchain.org",
+            "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+            "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
+        ]
     },
     "optimism": {
-      "quorum": 1,
-      "uris": [
-        "https://optimism-mainnet.infura.io/v3/${infura_api_key}",
-        "https://opt-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://op-pokt.nodies.app",
-        "https://optimism.drpc.org",
-        "https://optimism.llamarpc.com",
-        "https://optimism.meowrpc.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://optimism-mainnet.infura.io/v3/${infura_api_key}",
+            "https://opt-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://op-pokt.nodies.app",
+            "https://optimism.drpc.org",
+            "https://optimism.llamarpc.com",
+            "https://optimism.meowrpc.com"
+        ]
     },
     "orderly": {
-      "quorum": 1,
-      "uris": [
-        "https://l2-orderly-mainnet-0.t.conduit.xyz",
-        "https://rpc.orderly.network"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://l2-orderly-mainnet-0.t.conduit.xyz",
+            "https://rpc.orderly.network"
+        ]
     },
     "peaq": {
-      "quorum": 1,
-      "uris": [
-        "https://peaq.api.onfinality.io/public",
-        "https://peaq-rpc.dwellir.com",
-        "https://evm.peaq.network",
-        "https://peaq-rpc.publicnode.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://peaq.api.onfinality.io/public",
+            "https://peaq-rpc.dwellir.com",
+            "https://evm.peaq.network",
+            "https://peaq-rpc.publicnode.com"
+        ]
     },
     "plume": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc-plume-mainnet-0.t.conduit.xyz/3n3DjLFAm2JDYQWxEwDrTrRbMDDxYhxrW",
-        "https://phoenix-rpc.plumenetwork.xyz",
-        "https://rpc.plumenetwork.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc-plume-mainnet-0.t.conduit.xyz/3n3DjLFAm2JDYQWxEwDrTrRbMDDxYhxrW",
+            "https://phoenix-rpc.plumenetwork.xyz",
+            "https://rpc.plumenetwork.xyz"
+        ]
     },
     "polygon": {
-      "quorum": 1,
-      "uris": [
-        "https://polygon-mainnet.infura.io/v3/${infura_api_key}",
-        "https://polygon-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-        "https://polygon.llamarpc.com",
-        "https://rpc.ankr.com/polygon",
-        "https://polygon-rpc.com",
-        "https://1rpc.io/matic",
-        "https://polygon-mainnet.public.blastapi.io"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://polygon-mainnet.infura.io/v3/${infura_api_key}",
+            "https://polygon-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://polygon.llamarpc.com",
+            "https://rpc.ankr.com/polygon",
+            "https://polygon-rpc.com",
+            "https://1rpc.io/matic",
+            "https://polygon-mainnet.public.blastapi.io"
+        ]
     },
     "rarible": {
-      "quorum": 1,
-      "uris": [
-        "https://mainnet.rpc.rarichain.org/http"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.rpc.rarichain.org/http"
+        ]
     },
     "real": {
-      "quorum": 1,
-      "uris": [
-        "https://real.drpc.org",
-        "https://tangible-real.gateway.tenderly.co/"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://real.drpc.org",
+            "https://tangible-real.gateway.tenderly.co/"
+        ]
     },
     "rootstock": {
-      "quorum": 1,
-      "uris": [
-        "https://rootstock-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rootstock-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "scroll": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.scroll.io",
-        "https://rpc-scroll.icecreamswap.com",
-        "https://scroll-mainnet.public.blastapi.io",
-        "https://scroll.blockpi.network/v1/rpc/public",
-        "https://1rpc.io/scroll",
-        "https://rpc.ankr.com/scroll",
-        "https://scroll-mainnet.chainstacklabs.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.scroll.io",
+            "https://rpc-scroll.icecreamswap.com",
+            "https://scroll-mainnet.public.blastapi.io",
+            "https://scroll.blockpi.network/v1/rpc/public",
+            "https://1rpc.io/scroll",
+            "https://rpc.ankr.com/scroll",
+            "https://scroll-mainnet.chainstacklabs.com"
+        ]
     },
     "sei": {
-      "quorum": 1,
-      "uris": [
-        "https://evm-rpc.sei-apis.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://evm-rpc.sei-apis.com"
+        ]
     },
     "shimmer": {
         "quorum": 1,
@@ -550,143 +550,151 @@
     "soneium": {
         "quorum": 1,
         "uris": [
-            "https://soneium-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://soneium-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://rpc.soneium.org/"
         ]
     },
     "sonic": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.soniclabs.com",
-        "https://sonic-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.soniclabs.com",
+            "https://sonic-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
     },
     "sophon": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.sophon.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.sophon.xyz"
+        ]
     },
     "superposition": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.superposition.so"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.superposition.so"
+        ]
     },
     "swell": {
-      "quorum": 1,
-      "uris": [
-        "https://swell-mainnet.alt.technology",
-        "https://rpc.ankr.com/swell"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://swell-mainnet.alt.technology",
+            "https://rpc.ankr.com/swell"
+        ]
     },
     "taiko": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.taiko.xyz",
-        "https://taiko.blockpi.network/v1/rpc/public",
-        "https://rpc.taiko.tools",
-        "https://rpc.ankr.com/taiko",
-        "https://rpc.mainnet.taiko.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.taiko.xyz",
+            "https://taiko.blockpi.network/v1/rpc/public",
+            "https://rpc.taiko.tools",
+            "https://rpc.ankr.com/taiko",
+            "https://rpc.mainnet.taiko.xyz"
+        ]
     },
     "telos": {
-      "quorum": 1,
-      "uris": [
-        "https://mainnet.telos.net/evm",
-        "https://rpc1.eu.telos.net/evm",
-        "https://rpc1.us.telos.net/evm",
-        "https://api.kainosbp.com/evm",
-        "https://1rpc.io/telos/evm"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.telos.net/evm",
+            "https://rpc1.eu.telos.net/evm",
+            "https://rpc1.us.telos.net/evm",
+            "https://api.kainosbp.com/evm",
+            "https://1rpc.io/telos/evm"
+        ]
     },
     "tomo": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.viction.xyz"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.viction.xyz"
+        ]
+    },
+    "ton": {
+        "quorum": 1,
+        "uris": [
+            "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3",
+            "https://toncenter.com/api/v2?api-key=${ton_api_key}&v3-endpoint=https://toncenter.com/api/v3"
+        ]
     },
     "tron": {
-      "quorum": 1,
-      "uris": [
-        "https://api.trongrid.io/jsonrpc?tron-web-url=https://api.trongrid.io",
-        "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://api.trongrid.io/jsonrpc?tron-web-url=https://api.trongrid.io",
+            "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
+        ]
     },
     "worldchain": {
-      "quorum": 1,
-      "uris": [
-        "https://worldchain-mainnet.g.alchemy.com/public"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://worldchain-mainnet.g.alchemy.com/public"
+        ]
     },
     "xai": {
-      "quorum": 1,
-      "uris": [
-        "https://xai-chain.net/rpc"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://xai-chain.net/rpc"
+        ]
     },
     "xchain": {
-      "quorum": 1,
-      "uris": [
-        "https://xchain-rpc.idex.io"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://xchain-rpc.idex.io"
+        ]
     },
     "xlayer": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.xlayer.tech",
-        "https://xlayerrpc.okx.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.xlayer.tech",
+            "https://xlayerrpc.okx.com"
+        ]
     },
     "xpla": {
-      "quorum": 1,
-      "uris": [
-        "https://dimension-evm-rpc.xpla.dev"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://dimension-evm-rpc.xpla.dev"
+        ]
     },
     "zircuit": {
-      "quorum": 1,
-      "uris": [
-        "https://zircuit1-mainnet.p2pify.com",
-        "https://zircuit-mainnet.drpc.org",
-        "https://zircuit1-mainnet.liquify.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://zircuit1-mainnet.p2pify.com",
+            "https://zircuit-mainnet.drpc.org",
+            "https://zircuit1-mainnet.liquify.com"
+        ]
     },
     "zkconsensys": {
-      "quorum": 1,
-      "uris": [
-        "https://linea-mainnet.infura.io/v3/${infura_api_key}",
-        "https://rpc.linea.build",
-        "https://1rpc.io/linea",
-        "https://linea.drpc.org"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://linea-mainnet.infura.io/v3/${infura_api_key}",
+            "https://rpc.linea.build",
+            "https://1rpc.io/linea",
+            "https://linea.drpc.org"
+        ]
     },
     "zkpolygon": {
-      "quorum": 1,
-      "uris": [
-        "https://polygon-zkevm.blockpi.network/v1/rpc/public",
-        "https://rpc.ankr.com/polygon_zkevm",
-        "https://1rpc.io/polygon/zkevm",
-        "https://polygon-zkevm-mainnet.public.blastapi.io",
-        "https://polygon-zkevm.drpc.org",
-        "https://zkevm-rpc.com"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://polygon-zkevm.blockpi.network/v1/rpc/public",
+            "https://rpc.ankr.com/polygon_zkevm",
+            "https://1rpc.io/polygon/zkevm",
+            "https://polygon-zkevm-mainnet.public.blastapi.io",
+            "https://polygon-zkevm.drpc.org",
+            "https://zkevm-rpc.com"
+        ]
     },
     "zksync": {
-      "quorum": 1,
-      "uris": [
-        "https://zksync-era.blockpi.network/v1/rpc/public",
-        "https://go.getblock.io/f76c09905def4618a34946bf71851542",
-        "https://zksync.meowrpc.com",
-        "https://zksync.drpc.org",
-        "https://1rpc.io/zksync2-era",
-        "https://endpoints.omniatech.io/v1/zksync-era/mainnet/public",
-        "https://mainnet.era.zksync.io"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://zksync-era.blockpi.network/v1/rpc/public",
+            "https://go.getblock.io/f76c09905def4618a34946bf71851542",
+            "https://zksync.meowrpc.com",
+            "https://zksync.drpc.org",
+            "https://1rpc.io/zksync2-era",
+            "https://endpoints.omniatech.io/v1/zksync-era/mainnet/public",
+            "https://mainnet.era.zksync.io"
+        ]
     },
     "zora": {
-      "quorum": 1,
-      "uris": [
-        "https://rpc.zora.energy"
-      ]
+        "quorum": 1,
+        "uris": [
+            "https://rpc.zora.energy"
+        ]
     }
 }

@@ -1,5 +1,6 @@
 import * as fs from 'fs'
 import * as path from 'path'
+import * as dotenv from 'dotenv';
 
 type EnvVariableConfig = {
     envVarName: string;
@@ -28,9 +29,12 @@ const replaceEnvVariables = (configs: EnvVariableConfig[]) => {
     }
 };
 
+dotenv.config();
+
 // Usage
 replaceEnvVariables([
     { envVarName: 'INFURA_API_KEY', anchorString: 'infura_api_key' },
     { envVarName: 'ALCHEMY_API_KEY', anchorString: 'alchemy_api_key' },
-    { envVarName: 'BERA_RPC_JWT', anchorString: 'bera_rpc_jwt' }
+    { envVarName: 'BERA_RPC_JWT', anchorString: 'bera_rpc_jwt' },
+    { envVarName: 'TON_API_KEY', anchorString: 'ton_api_key' }
 ]);
