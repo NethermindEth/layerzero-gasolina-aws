@@ -166,6 +166,13 @@
             "https://1rpc.io/cro"
         ]
     },
+    "cronoszkevm": {
+        "quorum": 1,
+        "uris": [
+            "https://mainnet.zkevm.cronos.org",
+            "https://cronos-zkevm.drpc.org"
+        ]
+    },
     "cyber": {
         "quorum": 1,
         "uris": [
