@@ -338,6 +338,14 @@
             "https://rpc.islander.vana.org"
         ]
     },
+    "joc": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc-1.japanopenchain.org:8545",
+            "https://rpc-2.japanopenchain.org:8545",
+            "https://rpc-3.japanopenchain.org"
+        ]
+    },
     "kava": {
         "quorum": 1,
         "uris": [
