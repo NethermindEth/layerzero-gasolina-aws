@@ -158,6 +158,14 @@
             "https://1rpc.io/core"
         ]
     },
+    "cronos": {
+        "quorum": 1,
+        "uris": [
+            "https://cronos-evm-rpc.publicnode.com",
+            "https://evm.cronos.org",
+            "https://1rpc.io/cro"
+        ]
+    },
     "cyber": {
         "quorum": 1,
         "uris": [
