@@ -35,6 +35,5 @@ dotenv.config();
 replaceEnvVariables([
     { envVarName: 'INFURA_API_KEY', anchorString: 'infura_api_key' },
     { envVarName: 'ALCHEMY_API_KEY', anchorString: 'alchemy_api_key' },
-    { envVarName: 'BERA_RPC_JWT', anchorString: 'bera_rpc_jwt' },
     { envVarName: 'TON_API_KEY', anchorString: 'ton_api_key' }
 ]);

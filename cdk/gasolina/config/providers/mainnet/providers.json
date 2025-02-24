@@ -82,12 +82,8 @@
     "bera": {
         "quorum": 1,
         "uris": [
-            {
-                "headers": {
-                    "Authorization": "Bearer ${bera_bearer_token}"
-                },
-                "uri": "https://compatible-omniscient-glade.furtim-network.quiknode.pro/26d9d4933ff2660ac936e4a5a3442e42a10ec37c"
-            }
+            "https://berachain-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://rpc.berachain.com"
         ]
     },
     "bitlayer": {
