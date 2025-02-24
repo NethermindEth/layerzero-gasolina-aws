@@ -322,6 +322,12 @@
             "https://f5413107.rpc.hemi.network/rpc"
         ]
     },
+    "hyperliquid":{
+        "quorum": 1,
+        "uris": [
+            "https://rpc.hyperliquid.xyz/evm"
+        ]
+    },
     "ink": {
         "quorum": 1,
         "uris": [
