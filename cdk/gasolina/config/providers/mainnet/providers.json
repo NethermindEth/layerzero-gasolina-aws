@@ -586,6 +586,12 @@
             "https://rpc.sophon.xyz"
         ]
     },
+    "story": {
+        "quorum": 1,
+        "uris": [
+            "https://homer.storyrpc.io/"
+        ]
+    },
     "superposition": {
         "quorum": 1,
         "uris": [
