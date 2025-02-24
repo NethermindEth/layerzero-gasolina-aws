@@ -139,6 +139,12 @@
             "https://rpc.codex.is"
         ]
     },
+    "concrete": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc-concrete-mainnet-0.t.conduit.xyz/"
+        ]
+    },
     "conflux": {
         "quorum": 1,
         "uris": [
