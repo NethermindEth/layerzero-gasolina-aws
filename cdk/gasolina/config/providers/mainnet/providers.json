@@ -645,6 +645,12 @@
             "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
         ]
     },
+    "unichain": {
+        "quorum": 1,
+        "uris": [
+            "https://unichain-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+        ]
+    },
     "worldchain": {
         "quorum": 1,
         "uris": [
