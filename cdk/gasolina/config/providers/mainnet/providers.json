@@ -154,7 +154,7 @@
             "https://1rpc.io/core"
         ]
     },
-    "cronos": {
+    "cronosevm": {
         "quorum": 1,
         "uris": [
             "https://cronos-evm-rpc.publicnode.com",
