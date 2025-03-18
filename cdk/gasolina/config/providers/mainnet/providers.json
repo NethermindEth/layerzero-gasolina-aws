@@ -466,6 +466,20 @@
             "https://rpc.morphl2.io"
         ]
     },
+    "movement": {
+        "quorum": 1,
+        "uris": [
+            {
+                "uri": "https://rpc.sentio.xyz/movement/v1?event-indexer=https://rpc.sentio.xyz/movement-indexer/v1/graphql"
+            },
+            {
+                "uri": "https://mainnet.movementnetwork.xyz/v1?event-indexer=https://indexer.mainnet.movementnetwork.xyz/v1/graphql",
+                "headers": {
+                  "Authorization": "Bearer ${movement_bearer_token}"
+                }
+            }
+        ]
+    },
     "mp1": {
         "quorum": 1,
         "uris": [

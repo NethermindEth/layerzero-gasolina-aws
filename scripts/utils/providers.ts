@@ -35,5 +35,6 @@ dotenv.config();
 replaceEnvVariables([
     { envVarName: 'INFURA_API_KEY', anchorString: 'infura_api_key' },
     { envVarName: 'ALCHEMY_API_KEY', anchorString: 'alchemy_api_key' },
-    { envVarName: 'TON_API_KEY', anchorString: 'ton_api_key' }
+    { envVarName: 'TON_API_KEY', anchorString: 'ton_api_key' },
+    { envVarName: 'MOVEMENT_BEARER_TOKEN', anchorString: 'movement_bearer_token' }
 ]);
