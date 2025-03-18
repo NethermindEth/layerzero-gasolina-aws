@@ -533,8 +533,13 @@
         "quorum": 1,
         "uris": [
             "https://rpc-plume-mainnet-0.t.conduit.xyz/3n3DjLFAm2JDYQWxEwDrTrRbMDDxYhxrW",
-            "https://phoenix-rpc.plumenetwork.xyz",
             "https://rpc.plumenetwork.xyz"
+        ]
+    },
+    "plumephoenix": {
+        "quorum": 1,
+        "uris": [
+            "https://phoenix-rpc.plumenetwork.xyz"
         ]
     },
     "polygon": {
