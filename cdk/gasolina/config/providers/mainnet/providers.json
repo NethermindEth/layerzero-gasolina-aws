@@ -701,6 +701,14 @@
             "https://xchain-rpc.idex.io"
         ]
     },
+    "xdc": {
+        "quorum": 1,
+        "uris": [
+          "https://rpc1.xinfin.network",
+          "https://erpc.xdcrpc.com",
+          "https://erpc.xinfin.network"
+        ]
+    },
     "xlayer": {
         "quorum": 1,
         "uris": [
