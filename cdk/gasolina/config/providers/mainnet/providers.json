@@ -328,10 +328,16 @@
             "https://f5413107.rpc.hemi.network/rpc"
         ]
     },
-    "hyperliquid":{
+    "hyperliquid": {
         "quorum": 1,
         "uris": [
             "https://rpc.hyperliquid.xyz/evm"
+        ]
+    },
+    "initia": {
+        "quorum": 1,
+        "uris": [
+            "https://rest.initia.xyz?event-indexer=https://graphql.initia.xyz/v1/graphql"
         ]
     },
     "ink": {
@@ -475,7 +481,7 @@
             {
                 "uri": "https://mainnet.movementnetwork.xyz/v1?event-indexer=https://indexer.mainnet.movementnetwork.xyz/v1/graphql",
                 "headers": {
-                  "Authorization": "Bearer ${movement_bearer_token}"
+                    "Authorization": "Bearer ${movement_bearer_token}"
                 }
             }
         ]
@@ -709,9 +715,9 @@
     "xdc": {
         "quorum": 1,
         "uris": [
-          "https://rpc1.xinfin.network",
-          "https://erpc.xdcrpc.com",
-          "https://erpc.xinfin.network"
+            "https://rpc1.xinfin.network",
+            "https://erpc.xdcrpc.com",
+            "https://erpc.xinfin.network"
         ]
     },
     "xlayer": {
