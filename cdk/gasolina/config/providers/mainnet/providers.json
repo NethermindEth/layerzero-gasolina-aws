@@ -395,6 +395,14 @@
             "https://endpoints.omniatech.io/v1/lightlink/phoenix/public"
         ]
     },
+    "lisk": {
+        "quorum": 1,
+        "uris": [
+            "https://lisk.drpc.org",
+            "https://rpc.api.lisk.com",
+            "https://lisk.gateway.tenderly.co"
+        ]
+    },
     "manta": {
         "quorum": 1,
         "uris": [
