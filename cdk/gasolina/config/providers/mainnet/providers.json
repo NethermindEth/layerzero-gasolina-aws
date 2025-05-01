@@ -5,6 +5,12 @@
             "https://rpc.fsd.adfasd32442ds.com/"
         ]
     },
+    "animechain": {
+        "quorum": 1,
+        "uris": [
+          "https://rpc-animechain-39xf6m45e3.t.conduit.xyz/Q6ASpTvvXbH8dWtg8nGZK7orHvSssAuMn"
+        ]
+    },
     "ape": {
         "quorum": 1,
         "uris": [
@@ -310,6 +316,12 @@
             "https://rpc.gravity.xyz"
         ]
     },
+    "gunz": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc.gunzchain.io/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc"
+        ]
+    },
     "harmony": {
         "quorum": 1,
         "uris": [
@@ -356,7 +368,7 @@
     "islander": {
         "quorum": 1,
         "uris": [
-            "https://rpc.islander.vana.org"
+            "https://rpc.vana.org"
         ]
     },
     "joc": {
@@ -386,6 +398,17 @@
             "https://klaytn-pokt.nodies.app",
             "https://1rpc.io/klay",
             "https://rpc.ankr.com/klaytn"
+        ]
+    },
+    "lens": {
+        "quorum": 1,
+        "uris": [
+            {
+                "headers": {
+                    "AUTH": "${lens_token}"
+                },
+                "uri": "https://api.lens.matterhosted.dev"
+            }
         ]
     },
     "lightlink": {
