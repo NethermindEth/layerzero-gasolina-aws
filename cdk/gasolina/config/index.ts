@@ -13,7 +13,7 @@ export const CONFIG: {
     // EDIT: aws account number
     '824247070589': {
         gasolinaRepo: 'us-east1-docker.pkg.dev/lz-docker/gasolina/gasolina',
-        appVersion: '1.1.19', // EDIT: version and tag of the gasolina image
+        appVersion: '1.1.20', // EDIT: version and tag of the gasolina image
         projectName: 'layerzero-gasolina', // EDIT: project_name e.g. foobar-gasolina
         environment: 'mainnet', // EDIT: environment e.g. mainnet/testnet
         availableChainNames: 'abstract,ape,aptos,arbitrum,astar,aurora,avalanche,base,bb1,bera,bitlayer,blast,bob,bsc,canto,celo,codex,conflux,concrete,coredao,cronosevm,cronoszkevm,cyber,degen,dexalot,dfk,dm2verse,dos,ebi,edu,ethereum,etherlink,fantom,flare,flow,fraxtal,fuse,glue,gnosis,goat,gravity,harmony,hemi,hyperliquid,initia,joc,ink,iota,islander,kava,klaytn,lightlink,lisk,manta,mantle,masa,merlin,meter,metis,mode,moonbeam,moonriver,morph,movement,mp1,nibiru,opbnb,optimism,orderly,peaq,plume,plumephoenix,polygon,rarible,real,rootstock,scroll,sei,shimmer,solana,soneium,sonic,sophon,story,superposition,swell,taiko,telos,tomo,ton,tron,unichain,worldchain,xai,xchain,xlayer,xpla,zircuit,zkconsensys,zkpolygon,zksync,zora,xdc',
