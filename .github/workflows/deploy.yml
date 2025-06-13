@@ -1,0 +1,36 @@
+name: Deploy Gasolina API
+
+on:
+  push:
+    branches:
+      - deployment
+  workflow_dispatch:
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_SESSION_NAME: GasolinaAPI-ECS-CICD
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-region: ${{ env.AWS_REGION }}
+        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+        role-duration-seconds: 1800 # 30 minutes
+        role-session-name: ${{ env.ROLE_SESSION_NAME }}
+    
+    - name: Install nvm
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+    
