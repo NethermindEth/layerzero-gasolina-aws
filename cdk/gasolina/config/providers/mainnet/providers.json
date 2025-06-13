@@ -8,7 +8,7 @@
     "animechain": {
         "quorum": 1,
         "uris": [
-          "https://rpc-animechain-39xf6m45e3.t.conduit.xyz/Q6ASpTvvXbH8dWtg8nGZK7orHvSssAuMn"
+            "https://rpc-animechain-39xf6m45e3.t.conduit.xyz/Q6ASpTvvXbH8dWtg8nGZK7orHvSssAuMn"
         ]
     },
     "ape": {
@@ -191,7 +191,6 @@
     "degen": {
         "quorum": 1,
         "uris": [
-            "https://rpc.degen.tips",
             "https://degen-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
         ]
     },
@@ -235,14 +234,7 @@
     "ethereum": {
         "quorum": 1,
         "uris": [
-            "https://mainnet.infura.io/v3/${infura_api_key}",
-            "https://eth-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
-            "https://eth.llamarpc.com",
-            "https://ethereum-rpc.publicnode.com",
-            "https://rpc.mevblocker.io",
-            "https://rpc.payload.de",
-            "https://eth.meowrpc.com",
-            "https://eth.drpc.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1?token=${erpc_auth_token}"
         ]
     },
     "etherlink": {
@@ -355,14 +347,14 @@
     "ink": {
         "quorum": 1,
         "uris": [
-            "https://rpc-gel.inkonchain.com",
-            "https://rpc-gel.inkonchain.com/fd96af67f38f4bf8a137b167171eeddd"
+            "https://ink.drpc.org",
+            "https://rpc-qnd.inkonchain.com"
         ]
     },
     "iota": {
         "quorum": 1,
         "uris": [
-            "https://json-rpc.evm.iotaledger.net"
+            "https://rpc.ankr.com/iota_evm"
         ]
     },
     "islander": {
@@ -666,6 +658,12 @@
             "https://homer.storyrpc.io/"
         ]
     },
+    "subtensorevm": {
+        "quorum": 1,
+        "uris": [
+            "https://lite.chain.opentensor.ai"
+        ]
+    },
     "superposition": {
         "quorum": 1,
         "uris": [
@@ -708,8 +706,8 @@
     "ton": {
         "quorum": 1,
         "uris": [
-            "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3",
-            "https://toncenter.com/api/v2?api-key=${ton_api_key}&v3-endpoint=https://toncenter.com/api/v3"
+            "https://toncenter.com/api/v2?api-key=${ton_api_key}&v3-endpoint=https://toncenter.com/api/v3",
+            "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3"
         ]
     },
     "tron": {
@@ -746,9 +744,7 @@
     "xdc": {
         "quorum": 1,
         "uris": [
-            "https://rpc1.xinfin.network",
-            "https://erpc.xdcrpc.com",
-            "https://erpc.xinfin.network"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${erpc_auth_token}"
         ]
     },
     "xlayer": {

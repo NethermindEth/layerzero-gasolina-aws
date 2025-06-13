@@ -62,7 +62,8 @@ const configs = [
     { envVarName: 'ALCHEMY_API_KEY', anchorString: 'alchemy_api_key' },
     { envVarName: 'TON_API_KEY', anchorString: 'ton_api_key' },
     { envVarName: 'MOVEMENT_BEARER_TOKEN', anchorString: 'movement_bearer_token' },
-    { envVarName: 'LENS_TOKEN', anchorString: 'lens_token' }
+    { envVarName: 'LENS_TOKEN', anchorString: 'lens_token' },
+    { envVarName: 'ERPC_AUTH_TOKEN', anchorString: 'erpc_auth_token' }
 ];
 
 // Get command line argument
