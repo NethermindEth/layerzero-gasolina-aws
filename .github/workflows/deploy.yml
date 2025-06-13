@@ -55,3 +55,7 @@ jobs:
     - name: AWS CDK Diff
       working-directory: cdk/gasolina
       run: npx cdk diff
+
+    - name: AWS CDK Deploy
+      working-directory: cdk/gasolina
+      run: npx cdk deploy
