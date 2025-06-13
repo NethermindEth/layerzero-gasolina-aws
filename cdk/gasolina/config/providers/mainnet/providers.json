@@ -14,7 +14,7 @@
     "ape": {
         "quorum": 1,
         "uris": [
-            "https://apechain-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://apechain-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://rpc.apechain.com/http"
         ]
     },
@@ -27,8 +27,8 @@
     "arbitrum": {
         "quorum": 1,
         "uris": [
-            "https://arbitrum-mainnet.infura.io/v3/${infura_api_key}",
-            "https://arb-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://arbitrum.llamarpc.com",
             "https://arbitrum.drpc.org",
             "https://1rpc.io/arb",
@@ -57,15 +57,15 @@
     "avalanche": {
         "quorum": 1,
         "uris": [
-            "https://avalanche-mainnet.infura.io/v3/${infura_api_key}",
-            "https://avax-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://avalanche-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://avax-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "base": {
         "quorum": 1,
         "uris": [
-            "https://base-mainnet.infura.io/v3/${infura_api_key}",
-            "https://base-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://base-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://base-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://1rpc.io/base",
             "https://base-rpc.publicnode.com",
             "https://mainnet.base.org",
@@ -88,7 +88,7 @@
     "bera": {
         "quorum": 1,
         "uris": [
-            "https://berachain-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://berachain-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://rpc.berachain.com"
         ]
     },
@@ -104,7 +104,7 @@
     "blast": {
         "quorum": 1,
         "uris": [
-            "https://blast-mainnet.infura.io/v3/${infura_api_key}",
+            "https://blast-mainnet.infura.io/v3/${INFURA_API_KEY}",
             "https://rpc.blast.io",
             "https://rpc.ankr.com/blast",
             "https://blast.din.dev/rpc"
@@ -119,8 +119,8 @@
     "bsc": {
         "quorum": 1,
         "uris": [
-            "https://bsc-mainnet.infura.io/v3/${infura_api_key}",
-            "https://bnb-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://bsc-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://bnb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "canto": {
@@ -134,7 +134,7 @@
     "celo": {
         "quorum": 1,
         "uris": [
-            "https://celo-mainnet.infura.io/v3/${infura_api_key}",
+            "https://celo-mainnet.infura.io/v3/${INFURA_API_KEY}",
             "https://celo.drpc.org",
             "https://rpc.ankr.com/celo"
         ]
@@ -191,7 +191,7 @@
     "degen": {
         "quorum": 1,
         "uris": [
-            "https://degen-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://degen-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "dexalot": {
@@ -234,13 +234,13 @@
     "ethereum": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1?token=${erpc_auth_token}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "etherlink": {
         "quorum": 1,
         "uris": [
-            "https://etherlink-rpc.nethermind.io/${infura_api_key}",
+            "https://etherlink-rpc.nethermind.io/${INFURA_API_KEY}",
             "https://node.mainnet.etherlink.com",
             "https://etherlink-mainnet-pub-l5p9tu.zeeve.net/rpc"
         ]
@@ -265,7 +265,7 @@
     "flow": {
         "quorum": 1,
         "uris": [
-            "https://flow-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://flow-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://mainnet.evm.nodes.onflow.org"
         ]
     },
@@ -397,7 +397,7 @@
         "uris": [
             {
                 "headers": {
-                    "AUTH": "${lens_token}"
+                    "AUTH": "${LENS_TOKEN}"
                 },
                 "uri": "https://api.lens.matterhosted.dev"
             }
@@ -459,7 +459,7 @@
     "metis": {
         "quorum": 1,
         "uris": [
-            "https://metis-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://metis-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "mode": {
@@ -504,7 +504,7 @@
             {
                 "uri": "https://mainnet.movementnetwork.xyz/v1?event-indexer=https://indexer.mainnet.movementnetwork.xyz/v1/graphql",
                 "headers": {
-                    "Authorization": "Bearer ${movement_bearer_token}"
+                    "Authorization": "Bearer ${MOVEMENT_BEARER_TOKEN}"
                 }
             }
         ]
@@ -534,8 +534,8 @@
     "optimism": {
         "quorum": 1,
         "uris": [
-            "https://optimism-mainnet.infura.io/v3/${infura_api_key}",
-            "https://opt-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://optimism-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://op-pokt.nodies.app",
             "https://optimism.drpc.org",
             "https://optimism.llamarpc.com",
@@ -574,8 +574,8 @@
     "polygon": {
         "quorum": 1,
         "uris": [
-            "https://polygon-mainnet.infura.io/v3/${infura_api_key}",
-            "https://polygon-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://polygon-mainnet.infura.io/v3/${INFURA_API_KEY}",
+            "https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://polygon.llamarpc.com",
             "https://rpc.ankr.com/polygon",
             "https://polygon-rpc.com",
@@ -599,7 +599,7 @@
     "rootstock": {
         "quorum": 1,
         "uris": [
-            "https://rootstock-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://rootstock-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "scroll": {
@@ -629,13 +629,13 @@
     "solana": {
         "quorum": 1,
         "uris": [
-            "https://solana-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://solana-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "soneium": {
         "quorum": 1,
         "uris": [
-            "https://soneium-mainnet.g.alchemy.com/v2/${alchemy_api_key}",
+            "https://soneium-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
             "https://rpc.soneium.org/"
         ]
     },
@@ -643,7 +643,7 @@
         "quorum": 1,
         "uris": [
             "https://rpc.soniclabs.com",
-            "https://sonic-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://sonic-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "sophon": {
@@ -706,7 +706,7 @@
     "ton": {
         "quorum": 1,
         "uris": [
-            "https://toncenter.com/api/v2?api-key=${ton_api_key}&v3-endpoint=https://toncenter.com/api/v3",
+            "https://toncenter.com/api/v2?api-key=${TON_API_KEY}&v3-endpoint=https://toncenter.com/api/v3",
             "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3"
         ]
     },
@@ -720,7 +720,7 @@
     "unichain": {
         "quorum": 1,
         "uris": [
-            "https://unichain-mainnet.g.alchemy.com/v2/${alchemy_api_key}"
+            "https://unichain-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "worldchain": {
@@ -744,7 +744,7 @@
     "xdc": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${erpc_auth_token}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xlayer": {
@@ -771,7 +771,7 @@
     "zkconsensys": {
         "quorum": 1,
         "uris": [
-            "https://linea-mainnet.infura.io/v3/${infura_api_key}",
+            "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
             "https://rpc.linea.build",
             "https://1rpc.io/linea",
             "https://linea.drpc.org"
