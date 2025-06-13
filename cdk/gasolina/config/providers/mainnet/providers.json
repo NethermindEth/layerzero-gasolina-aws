@@ -240,9 +240,7 @@
     "etherlink": {
         "quorum": 1,
         "uris": [
-            "https://etherlink-rpc.nethermind.io/${INFURA_API_KEY}",
-            "https://node.mainnet.etherlink.com",
-            "https://etherlink-mainnet-pub-l5p9tu.zeeve.net/rpc"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42793?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fantom": {
