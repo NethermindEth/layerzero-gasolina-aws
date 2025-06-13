@@ -744,7 +744,8 @@
     "xdc": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${erpc_auth_token}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${erpc_auth_token}",
+            "https://ethereum-rpc.publicnode.com"
         ]
     },
     "xlayer": {
