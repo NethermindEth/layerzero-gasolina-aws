@@ -3,7 +3,7 @@ name: Deploy Gasolina API
 on:
   push:
     branches:
-      - deployment
+      - main 
   workflow_dispatch:
 
 env:
