@@ -48,10 +48,10 @@ jobs:
         LENS_TOKEN: ${{ secrets.LENS_TOKEN }}
         ERPC_AUTH_TOKEN: ${{ secrets.ERPC_AUTH_TOKEN }}
 
+    - name: AWS CDK synth
+      working-directory: cdk/gasolina
+      run: npx cdk synth
+
     - name: AWS CDK Diff
       working-directory: cdk/gasolina
       run: npx cdk diff
-    
-    - name: AWS CDK Deploy
-      working-directory: cdk/gasolina
-      run: npx cdk deploy
