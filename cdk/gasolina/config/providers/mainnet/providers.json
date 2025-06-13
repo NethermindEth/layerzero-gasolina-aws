@@ -240,7 +240,7 @@
     "etherlink": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42793?token=${erpc_auth_token}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42793?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fantom": {
