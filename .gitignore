@@ -10,3 +10,6 @@ dist
 .cdk.staging
 cdk.out
 cdk.context.json
+
+# Environment variables
+.env
