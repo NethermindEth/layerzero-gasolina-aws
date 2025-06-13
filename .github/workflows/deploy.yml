@@ -38,7 +38,7 @@ jobs:
       run: yarn install
     
     - name: Replace env variables
-      run: npx ts-node script/utils/providers.ts replace
+      run: npx ts-node scripts/utils/providers.ts replace
       env:
         INFURA_API_KEY: ${{ secrets.INFURA_API_KEY }}
         ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
