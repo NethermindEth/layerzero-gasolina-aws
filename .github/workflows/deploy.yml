@@ -36,3 +36,7 @@ jobs:
     
     - name: Install dependencies
       run: yarn install
+
+    - name: AWS CDK Diff
+      working-directory: cdk/gasolina
+      run: npx cdk diff
