@@ -24,6 +24,7 @@
         "args": "^5.0.3",
         "aws-cdk-lib": "^2.62.1",
         "aws-sdk": "^2.1308.0",
+        "axios": "^1.6.0",
         "command-line-args": "^5.2.1",
         "constructs": "^10.0.0",
         "dotenv": "^16.4.7",
