@@ -2,7 +2,7 @@
     "abstract": {
         "quorum": 1,
         "uris": [
-            "https://rpc.fsd.adfasd32442ds.com/"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2741?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "animechain": {
