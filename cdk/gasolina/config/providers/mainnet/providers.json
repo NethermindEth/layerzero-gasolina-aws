@@ -273,6 +273,12 @@
             "https://hmyone-pokt.nodies.app"
         ]
     },
+    "hedera": {
+        "quorum": 1,
+        "uris": [
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/295?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "hemi": {
         "quorum": 1,
         "uris": [
