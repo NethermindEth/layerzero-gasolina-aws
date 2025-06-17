@@ -226,21 +226,19 @@
     "fraxtal": {
         "quorum": 1,
         "uris": [
-            "https://rpc.frax.com",
-            "https://fraxtal.drpc.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/252?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fuse": {
         "quorum": 1,
         "uris": [
-            "https://rpc.fuse.io",
-            "https://fuse-pokt.nodies.app"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/122?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "glue": {
         "quorum": 1,
         "uris": [
-            "https://rpc.glue.net"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1300?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gnosis": {
