@@ -83,6 +83,12 @@
             "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/60808?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "botanix": {
+        "quorum": 1,
+        "uris": [
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/3637?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "bsc": {
         "quorum": 1,
         "uris": [
