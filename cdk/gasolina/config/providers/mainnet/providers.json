@@ -244,37 +244,31 @@
     "gnosis": {
         "quorum": 1,
         "uris": [
-            "https://rpc.gnosischain.com/",
-            "https://rpc.ankr.com/gnosis"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/100?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "goat": {
         "quorum": 1,
         "uris": [
-            "https://rpc.goat.network"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2345?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gravity": {
         "quorum": 1,
         "uris": [
-            "https://rpc.gravity.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1625?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gunz": {
         "quorum": 1,
         "uris": [
-            "https://rpc.gunzchain.io/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/43419?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "harmony": {
         "quorum": 1,
         "uris": [
-            "https://api.s0.t.hmny.io",
-            "https://api.harmony.one",
-            "https://a.api.s0.t.hmny.io",
-            "https://rpc.ankr.com/harmony",
-            "https://1rpc.io/one",
-            "https://hmyone-pokt.nodies.app"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1666600000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "hedera": {
