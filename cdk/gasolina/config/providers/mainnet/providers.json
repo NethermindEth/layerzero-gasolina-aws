@@ -280,14 +280,13 @@
     "hemi": {
         "quorum": 1,
         "uris": [
-            "https://7e57304f.rpc.hemi.network/rpc",
-            "https://f5413107.rpc.hemi.network/rpc"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/43111?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "hyperliquid": {
         "quorum": 1,
         "uris": [
-            "https://rpc.hyperliquid.xyz/evm"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/999?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "initia": {
