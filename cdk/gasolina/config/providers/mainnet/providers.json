@@ -328,10 +328,7 @@
     "klaytn": {
         "quorum": 1,
         "uris": [
-            "https://klaytn.drpc.org",
-            "https://klaytn-pokt.nodies.app",
-            "https://1rpc.io/klay",
-            "https://rpc.ankr.com/klaytn"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/8217?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lens": {
@@ -348,34 +345,25 @@
     "lightlink": {
         "quorum": 1,
         "uris": [
-            "https://replicator.phoenix.lightlink.io/rpc/v1",
-            "https://endpoints.omniatech.io/v1/lightlink/phoenix/public"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1890?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lisk": {
         "quorum": 1,
         "uris": [
-            "https://lisk.drpc.org",
-            "https://rpc.api.lisk.com",
-            "https://lisk.gateway.tenderly.co"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1135?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "manta": {
         "quorum": 1,
         "uris": [
-            "https://pacific-rpc.manta.network/http",
-            "https://1rpc.io/manta"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/169?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "mantle": {
         "quorum": 1,
         "uris": [
-            "https://mantle.publicnode.com",
-            "https://mantle-mainnet.public.blastapi.io",
-            "https://mantle.drpc.org",
-            "https://rpc.ankr.com/mantle",
-            "https://1rpc.io/mantle",
-            "https://rpc.mantle.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/5000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "masa": {
