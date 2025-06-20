@@ -381,7 +381,8 @@
     "meter": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/82?token=${ERPC_AUTH_TOKEN}"
+            "https://rpc.meter.io",
+            "https://meter.blockpi.network/v1/rpc/public"
         ]
     },
     "metis": {
