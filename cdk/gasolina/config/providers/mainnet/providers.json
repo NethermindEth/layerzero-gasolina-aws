@@ -298,40 +298,31 @@
     "ink": {
         "quorum": 1,
         "uris": [
-            "https://ink.drpc.org",
-            "https://rpc-qnd.inkonchain.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/57073?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "iota": {
         "quorum": 1,
         "uris": [
-            "https://rpc.ankr.com/iota_evm"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/8822?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "islander": {
         "quorum": 1,
         "uris": [
-            "https://rpc.vana.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1480?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "joc": {
         "quorum": 1,
         "uris": [
-            "https://rpc-1.japanopenchain.org:8545",
-            "https://rpc-2.japanopenchain.org:8545",
-            "https://rpc-3.japanopenchain.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/81?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "kava": {
         "quorum": 1,
         "uris": [
-            "https://evm.kava.io",
-            "https://kava.api.onfinality.io/public",
-            "https://kava-evm.publicnode.com",
-            "https://kava-pokt.nodies.app",
-            "https://evm.kava.chainstacklabs.com",
-            "https://rpc.ankr.com/kava_evm",
-            "https://evm.kava-rpc.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2222?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "klaytn": {
