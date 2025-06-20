@@ -375,21 +375,19 @@
     "merlin": {
         "quorum": 1,
         "uris": [
-            "https://rpc.merlinchain.io",
-            "https://merlin.blockpi.network/v1/rpc/public"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/4200?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "meter": {
         "quorum": 1,
         "uris": [
-            "https://rpc.meter.io",
-            "https://meter.blockpi.network/v1/rpc/public"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/82?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "metis": {
         "quorum": 1,
         "uris": [
-            "https://metis-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1088?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "mode": {
