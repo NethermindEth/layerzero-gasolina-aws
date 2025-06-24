@@ -606,6 +606,12 @@
             "https://rpc.ankr.com/swell"
         ]
     },
+    "tac": {
+        "quorum": 1,
+        "uris": [
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/239?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "taiko": {
         "quorum": 1,
         "uris": [
