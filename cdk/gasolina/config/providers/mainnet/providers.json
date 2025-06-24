@@ -450,35 +450,25 @@
     "optimism": {
         "quorum": 1,
         "uris": [
-            "https://optimism-mainnet.infura.io/v3/${INFURA_API_KEY}",
-            "https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-            "https://op-pokt.nodies.app",
-            "https://optimism.drpc.org",
-            "https://optimism.llamarpc.com",
-            "https://optimism.meowrpc.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/10?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "orderly": {
         "quorum": 1,
         "uris": [
-            "https://l2-orderly-mainnet-0.t.conduit.xyz",
-            "https://rpc.orderly.network"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/291?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "peaq": {
         "quorum": 1,
         "uris": [
-            "https://peaq.api.onfinality.io/public",
-            "https://peaq-rpc.dwellir.com",
-            "https://evm.peaq.network",
-            "https://peaq-rpc.publicnode.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "plume": {
         "quorum": 1,
         "uris": [
-            "https://rpc-plume-mainnet-0.t.conduit.xyz/3n3DjLFAm2JDYQWxEwDrTrRbMDDxYhxrW",
-            "https://rpc.plumenetwork.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "plumephoenix": {
@@ -490,26 +480,19 @@
     "polygon": {
         "quorum": 1,
         "uris": [
-            "https://polygon-mainnet.infura.io/v3/${INFURA_API_KEY}",
-            "https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-            "https://polygon.llamarpc.com",
-            "https://rpc.ankr.com/polygon",
-            "https://polygon-rpc.com",
-            "https://1rpc.io/matic",
-            "https://polygon-mainnet.public.blastapi.io"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/137?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "rarible": {
         "quorum": 1,
         "uris": [
-            "https://mainnet.rpc.rarichain.org/http"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1380012617?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "real": {
         "quorum": 1,
         "uris": [
-            "https://real.drpc.org",
-            "https://tangible-real.gateway.tenderly.co/"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "rootstock": {
