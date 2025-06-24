@@ -468,7 +468,7 @@
     "plume": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
+            "https://rpc.plume.org"
         ]
     },
     "plumephoenix": {
