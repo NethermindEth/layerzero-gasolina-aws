@@ -394,34 +394,25 @@
     "mode": {
         "quorum": 1,
         "uris": [
-            "https://1rpc.io/mode",
-            "https://mainnet.mode.network",
-            "https://mode.drpc.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/34443?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "moonbeam": {
         "quorum": 1,
         "uris": [
-            "https://rpc.api.moonbeam.network",
-            "https://moonbeam.publicnode.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1284?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "moonriver": {
         "quorum": 1,
         "uris": [
-            "https://moonriver.api.onfinality.io/public",
-            "https://moonriver.unitedbloc.com:2000",
-            "https://moonriver.public.blastapi.io",
-            "https://moonriver-rpc.dwellir.com",
-            "https://moonriver.publicnode.com",
-            "https://rpc.api.moonriver.moonbeam.network"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1285?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "morph": {
         "quorum": 1,
         "uris": [
-            "https://rpc-quicknode.morphl2.io",
-            "https://rpc.morphl2.io"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2818?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "movement": {
@@ -444,20 +435,16 @@
             "https://maizenet-rpc.usecorn.com"
         ]
     },
-    "opbnb": {
-        "quorum": 1,
-        "uris": [
-            "https://opbnb.publicnode.com",
-            "https://1rpc.io/opbnb",
-            "https://opbnb-mainnet-rpc.bnbchain.org",
-            "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-            "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
-        ]
-    },
     "nibiru": {
         "quorum": 1,
         "uris": [
-            "https://evm-rpc.nibiru.fi"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/6900?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "opbnb": {
+        "quorum": 1,
+        "uris": [
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/204?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "optimism": {
