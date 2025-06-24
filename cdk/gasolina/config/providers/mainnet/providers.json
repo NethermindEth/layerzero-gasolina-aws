@@ -468,6 +468,7 @@
     "plume": {
         "quorum": 1,
         "uris": [
+            "https://98866.rpc.thirdweb.com",
             "https://rpc.plume.org"
         ]
     },
