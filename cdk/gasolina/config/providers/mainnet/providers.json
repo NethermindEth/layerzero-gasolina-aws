@@ -498,7 +498,7 @@
     "rootstock": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/30?token=${ERPC_AUTH_TOKEN}"
+            "https://rootstock-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
     "scroll": {
