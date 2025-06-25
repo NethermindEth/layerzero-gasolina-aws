@@ -504,25 +504,19 @@
     "scroll": {
         "quorum": 1,
         "uris": [
-            "https://rpc.scroll.io",
-            "https://rpc-scroll.icecreamswap.com",
-            "https://scroll-mainnet.public.blastapi.io",
-            "https://scroll.blockpi.network/v1/rpc/public",
-            "https://1rpc.io/scroll",
-            "https://rpc.ankr.com/scroll",
-            "https://scroll-mainnet.chainstacklabs.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/534352?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sei": {
         "quorum": 1,
         "uris": [
-            "https://evm-rpc.sei-apis.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1329?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "shimmer": {
         "quorum": 1,
         "uris": [
-            "https://json-rpc.evm.shimmer.network"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/148?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "solana": {
@@ -534,46 +528,43 @@
     "soneium": {
         "quorum": 1,
         "uris": [
-            "https://soneium-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-            "https://rpc.soneium.org/"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1868?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sonic": {
         "quorum": 1,
         "uris": [
-            "https://rpc.soniclabs.com",
-            "https://sonic-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/146?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sophon": {
         "quorum": 1,
         "uris": [
-            "https://rpc.sophon.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50104?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "story": {
         "quorum": 1,
         "uris": [
-            "https://homer.storyrpc.io/"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1514?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "subtensorevm": {
         "quorum": 1,
         "uris": [
-            "https://lite.chain.opentensor.ai"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/964?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "superposition": {
         "quorum": 1,
         "uris": [
-            "https://rpc.superposition.so"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/55244?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "swell": {
         "quorum": 1,
         "uris": [
-            "https://swell-mainnet.alt.technology",
-            "https://rpc.ankr.com/swell"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1923?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "tac": {
