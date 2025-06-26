@@ -649,47 +649,31 @@
     "zircuit": {
         "quorum": 1,
         "uris": [
-            "https://zircuit1-mainnet.p2pify.com",
-            "https://zircuit-mainnet.drpc.org",
-            "https://zircuit1-mainnet.liquify.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/48900?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zkconsensys": {
         "quorum": 1,
         "uris": [
-            "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
-            "https://rpc.linea.build",
-            "https://1rpc.io/linea",
-            "https://linea.drpc.org"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/59144?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zkpolygon": {
         "quorum": 1,
         "uris": [
-            "https://polygon-zkevm.blockpi.network/v1/rpc/public",
-            "https://rpc.ankr.com/polygon_zkevm",
-            "https://1rpc.io/polygon/zkevm",
-            "https://polygon-zkevm-mainnet.public.blastapi.io",
-            "https://polygon-zkevm.drpc.org",
-            "https://zkevm-rpc.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1101?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zksync": {
         "quorum": 1,
         "uris": [
-            "https://zksync-era.blockpi.network/v1/rpc/public",
-            "https://go.getblock.io/f76c09905def4618a34946bf71851542",
-            "https://zksync.meowrpc.com",
-            "https://zksync.drpc.org",
-            "https://1rpc.io/zksync2-era",
-            "https://endpoints.omniatech.io/v1/zksync-era/mainnet/public",
-            "https://mainnet.era.zksync.io"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/324?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zora": {
         "quorum": 1,
         "uris": [
-            "https://rpc.zora.energy"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7777777?token=${ERPC_AUTH_TOKEN}"
         ]
     }
 }
