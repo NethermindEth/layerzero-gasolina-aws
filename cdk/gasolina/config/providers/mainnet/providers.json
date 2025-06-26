@@ -576,21 +576,13 @@
     "taiko": {
         "quorum": 1,
         "uris": [
-            "https://rpc.taiko.xyz",
-            "https://taiko.blockpi.network/v1/rpc/public",
-            "https://rpc.taiko.tools",
-            "https://rpc.ankr.com/taiko",
-            "https://rpc.mainnet.taiko.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/167000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "telos": {
         "quorum": 1,
         "uris": [
-            "https://mainnet.telos.net/evm",
-            "https://rpc1.eu.telos.net/evm",
-            "https://rpc1.us.telos.net/evm",
-            "https://api.kainosbp.com/evm",
-            "https://1rpc.io/telos/evm"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/40?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "tomo": {
@@ -609,32 +601,31 @@
     "tron": {
         "quorum": 1,
         "uris": [
-            "https://api.trongrid.io/jsonrpc?tron-web-url=https://api.trongrid.io",
-            "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/728126428?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "unichain": {
         "quorum": 1,
         "uris": [
-            "https://unichain-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/130?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "worldchain": {
         "quorum": 1,
         "uris": [
-            "https://worldchain-mainnet.g.alchemy.com/public"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/480?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xai": {
         "quorum": 1,
         "uris": [
-            "https://xai-chain.net/rpc"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/660279?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xchain": {
         "quorum": 1,
         "uris": [
-            "https://xchain-rpc.idex.io"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/94524?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xdc": {
@@ -646,14 +637,13 @@
     "xlayer": {
         "quorum": 1,
         "uris": [
-            "https://rpc.xlayer.tech",
-            "https://xlayerrpc.okx.com"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/196?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xpla": {
         "quorum": 1,
         "uris": [
-            "https://dimension-evm-rpc.xpla.dev"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/37?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zircuit": {
