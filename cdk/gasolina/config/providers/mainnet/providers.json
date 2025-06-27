@@ -596,7 +596,8 @@
     "tron": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/728126428?token=${ERPC_AUTH_TOKEN}"
+            "https://api.trongrid.io/jsonrpc?tron-web-url=https://api.trongrid.io",
+            "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
         ]
     },
     "unichain": {
