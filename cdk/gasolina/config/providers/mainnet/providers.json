@@ -334,12 +334,7 @@
     "lens": {
         "quorum": 1,
         "uris": [
-            {
-                "headers": {
-                    "AUTH": "${LENS_TOKEN}"
-                },
-                "uri": "https://api.lens.matterhosted.dev"
-            }
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/232?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lightlink": {
