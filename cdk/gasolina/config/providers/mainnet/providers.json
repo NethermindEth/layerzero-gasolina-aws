@@ -319,6 +319,12 @@
             "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/81?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "katana": {
+        "quorum": 1,
+        "uris": [
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/747474?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "kava": {
         "quorum": 1,
         "uris": [
