@@ -469,13 +469,13 @@
     "plume": {
         "quorum": 1,
         "uris": [
-            "https://rpc.plumenetwork.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98865?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "plumephoenix": {
         "quorum": 1,
         "uris": [
-            "https://phoenix-rpc.plumenetwork.xyz"
+            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "polygon": {
