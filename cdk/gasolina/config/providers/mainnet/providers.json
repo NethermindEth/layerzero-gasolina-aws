@@ -365,12 +365,6 @@
             "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/5000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
-    "masa": {
-        "quorum": 1,
-        "uris": [
-            "https://subnets.avax.network/masanetwork/mainnet/rpc"
-        ]
-    },
     "merlin": {
         "quorum": 1,
         "uris": [
