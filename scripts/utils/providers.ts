@@ -1,6 +1,5 @@
 import * as fs from 'fs'
 import * as path from 'path'
-import * as dotenv from 'dotenv';
 
 type EnvVariableConfig = {
     envVarName: string;
@@ -54,8 +53,6 @@ const rollbackEnvVariables = (configs: EnvVariableConfig[]) => {
         throw error;
     }
 };
-
-dotenv.config();
 
 const configs = [
     { envVarName: 'INFURA_API_KEY', anchorString: 'INFURA_API_KEY' },
