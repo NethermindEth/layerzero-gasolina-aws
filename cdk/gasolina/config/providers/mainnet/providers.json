@@ -167,22 +167,10 @@
             "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/53935?token=${ERPC_AUTH_TOKEN}"
         ]
     },
-    "dm2verse": {
-        "quorum": 1,
-        "uris": [
-            "https://rpc.dm2verse.dmm.com"
-        ]
-    },
     "dos": {
         "quorum": 1,
         "uris": [
             "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7979?token=${ERPC_AUTH_TOKEN}"
-        ]
-    },
-    "ebi": {
-        "quorum": 1,
-        "uris": [
-            "https://rpc.ebi.xyz"
         ]
     },
     "edu": {
