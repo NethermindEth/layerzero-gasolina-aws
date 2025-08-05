@@ -2,19 +2,19 @@
     "abstract": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2741?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2741?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "animechain": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/69000?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/69000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "ape": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/33139?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/33139?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "aptos": {
@@ -26,253 +26,253 @@
     "arbitrum": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42161?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/42161?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "astar": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/592?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/592?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "aurora": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1313161554?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1313161554?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "avalanche": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/43114?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/43114?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "base": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/8453?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/8453?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "bb1": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2525?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2525?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "bera": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/80094?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/80094?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "bitlayer": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/200901?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/200901?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "blast": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/81457?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/81457?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "bob": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/60808?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/60808?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "botanix": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/3637?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3637?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "bsc": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/56?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/56?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "canto": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7700?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/7700?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "celo": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42220?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/42220?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "codex": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/81224?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/81224?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "concrete": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/12739?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/12739?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "conflux": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1030?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1030?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "coredao": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1116?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1116?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "cronosevm": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/25?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/25?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "cronoszkevm": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/388?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/388?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "cyber": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7560?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/7560?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "degen": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/666666666?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/666666666?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "dexalot": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/432204?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/432204?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "dfk": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/53935?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/53935?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "dos": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7979?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/7979?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "edu": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/41923?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/41923?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "ethereum": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "etherlink": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/42793?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/42793?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fantom": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/250?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/250?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "flare": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/14?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/14?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "flow": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/747?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/747?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fraxtal": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/252?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/252?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "fuse": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/122?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/122?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "glue": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1300?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1300?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gnosis": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/100?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/100?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "goat": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2345?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2345?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gravity": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1625?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1625?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "gunz": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/43419?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/43419?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "harmony": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1666600000?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1666600000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "hedera": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/295?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/295?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "hemi": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/43111?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/43111?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "hyperliquid": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/999?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/999?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "initia": {
@@ -284,115 +284,115 @@
     "ink": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/57073?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/57073?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "iota": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/8822?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/8822?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "islander": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1480?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1480?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "joc": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/81?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/81?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "katana": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/747474?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/747474?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "kava": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2222?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2222?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "klaytn": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/8217?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/8217?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lens": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/232?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/232?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lightlink": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1890?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1890?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "lisk": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1135?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1135?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "manta": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/169?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/169?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "mantle": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/5000?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "merlin": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/4200?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4200?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "meter": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/82?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/82?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "metis": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1088?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1088?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "mode": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/34443?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/34443?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "moonbeam": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1284?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1284?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "moonriver": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1285?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1285?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "morph": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/2818?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2818?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "movement": {
@@ -418,85 +418,85 @@
     "nibiru": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/6900?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/6900?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "opbnb": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/204?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/204?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "optimism": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/10?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/10?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "orderly": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/291?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/291?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "peaq": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "plume": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98865?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/98865?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "plumephoenix": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "polygon": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/137?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/137?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "rarible": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1380012617?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1380012617?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "real": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "rootstock": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/30?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/30?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "scroll": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/534352?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/534352?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sei": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1329?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1329?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "shimmer": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/148?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/148?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "solana": {
@@ -508,61 +508,61 @@
     "soneium": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1868?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1868?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sonic": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/146?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/146?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "sophon": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50104?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/50104?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "story": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1514?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1514?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "subtensorevm": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/964?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/964?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "superposition": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/55244?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/55244?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "swell": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1923?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1923?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "tac": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/239?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/239?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "taiko": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/167000?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/167000?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "telos": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/40?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/40?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "tomo": {
@@ -588,73 +588,73 @@
     "unichain": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/130?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/130?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "worldchain": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/480?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/480?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xai": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/660279?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/660279?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xchain": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/94524?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/94524?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xdc": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xlayer": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/196?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/196?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "xpla": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/37?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/37?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zircuit": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/48900?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/48900?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zkconsensys": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/59144?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/59144?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zkpolygon": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/1101?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1101?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zksync": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/324?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/324?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "zora": {
         "quorum": 1,
         "uris": [
-            "https://reno-erpc.nethermind.io/layerzero-gasolina-api/evm/7777777?token=${ERPC_AUTH_TOKEN}"
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/7777777?token=${ERPC_AUTH_TOKEN}"
         ]
     }
 }
