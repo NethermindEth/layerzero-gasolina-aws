@@ -505,6 +505,12 @@
             "https://solana-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
         ]
     },
+    "somnia": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5031?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "soneium": {
         "quorum": 1,
         "uris": [
