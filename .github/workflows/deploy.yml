@@ -47,6 +47,7 @@ jobs:
         MOVEMENT_BEARER_TOKEN: ${{ secrets.MOVEMENT_BEARER_TOKEN }}
         LENS_TOKEN: ${{ secrets.LENS_TOKEN }}
         ERPC_AUTH_TOKEN: ${{ secrets.ERPC_AUTH_TOKEN }}
+        SHINAMI_BEARER_TOKEN: ${{ secrets.SHINAMI_BEARER_TOKEN }}
 
     - name: AWS CDK synth
       working-directory: cdk/gasolina
