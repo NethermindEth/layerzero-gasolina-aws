@@ -20,7 +20,8 @@
     "aptos": {
         "quorum": 1,
         "uris": [
-            "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
+            "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql",
+            "https://aptos-rest.publicnode.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
         ]
     },
     "arbitrum": {
