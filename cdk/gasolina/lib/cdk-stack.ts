@@ -1,4 +1,4 @@
-import { Stack, StackProps } from 'aws-cdk-lib'
+import { Stack, StackProps, Tags } from 'aws-cdk-lib'
 import * as ec2 from 'aws-cdk-lib/aws-ec2'
 import * as ecs from 'aws-cdk-lib/aws-ecs'
 import { Construct } from 'constructs'
@@ -16,6 +16,9 @@ export interface WalletDefinition {
 export class LZCdkStack extends Stack {
     constructor(scope: Construct, id: string, props?: StackProps) {
         super(scope, id, props)
+        
+        // Add ProjectCode tag to all resources in this stack
+        Tags.of(this).add('ProjectCode', 'LYZ-LNO-01')
     }
 
     protected createVpc(

@@ -1,40 +1,289 @@
 {
-    "ethereum": {
+    "abstract": {
+        "quorum": 1,
         "uris": [
-            "https://eth.llamarpc.com",
-            "https://eth-mainnet.public.blastapi.io"
-        ],
-        "quorum": 1
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2741?token=${ERPC_AUTH_TOKEN}"
+        ]
     },
-    "bsc": {
+    "animechain": {
+        "quorum": 1,
         "uris": [
-            "https://binance.llamarpc.com",
-            "https://bsc-dataseed.binance.org",
-            "https://bsc-dataseed1.binance.org",
-            "https://bsc-dataseed2.binance.org"
-        ],
-        "quorum": 1
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/69000?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "ape": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/33139?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "aptos": {
+        "quorum": 1,
+        "uris": [
+            "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql",
+            "https://aptos-rest.publicnode.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
+        ]
+    },
+    "arbitrum": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/42161?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "astar": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/592?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "aurora": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1313161554?token=${ERPC_AUTH_TOKEN}"
+        ]
     },
     "avalanche": {
         "uris": ["https://api.avax.network/ext/bc/C/rpc"],
         "quorum": 1
     },
-    "polygon": {
+    "nibiru": {
+        "quorum": 1,
         "uris": [
-            "https://polygon.llamarpc.com",
-            "https://polygon-mainnet.public.blastapi.io"
-        ],
-        "quorum": 1
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/6900?token=${ERPC_AUTH_TOKEN}"
+        ]
     },
-    "arbitrum": {
+    "opbnb": {
+        "quorum": 1,
         "uris": [
-            "https://arbitrum.llamarpc.com",
-            "https://arbitrum-one.public.blastapi.io",
-            "https://rpc.ankr.com/arbitrum"
-        ],
-        "quorum": 1
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/204?token=${ERPC_AUTH_TOKEN}"
+        ]
     },
     "optimism": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/10?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "orderly": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/291?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "peaq": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "plume": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/98865?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "plumephoenix": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/98866?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "polygon": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/137?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "rarible": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1380012617?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "real": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "rootstock": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/30?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "scroll": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/534352?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "sei": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1329?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "shimmer": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/148?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "solana": {
+        "quorum": 1,
+        "uris": [
+            "https://solana-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+        ]
+    },
+    "somnia": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5031?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "soneium": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1868?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "sonic": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/146?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "sophon": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/50104?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "story": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1514?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "subtensorevm": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/964?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "superposition": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/55244?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "swell": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1923?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "tac": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/239?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "taiko": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/167000?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "telos": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/40?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "tomo": {
+        "quorum": 1,
+        "uris": [
+            "https://rpc.viction.xyz"
+        ]
+    },
+    "ton": {
+        "quorum": 1,
+        "uris": [
+            "https://toncenter.com/api/v2?api-key=${TON_API_KEY}&v3-endpoint=https://toncenter.com/api/v3",
+            "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3"
+        ]
+    },
+    "tron": {
+        "quorum": 1,
+        "uris": [
+            "https://api.trongrid.io/jsonrpc?tron-web-url=https://api.trongrid.io",
+            "https://rpc.ankr.com/tron_jsonrpc?tron-web-url=https://rpc.ankr.com/http/tron"
+        ]
+    },
+    "unichain": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/130?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "worldchain": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/480?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "xai": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/660279?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "xchain": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/94524?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "xdc": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/50?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "xlayer": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/196?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "xpla": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/37?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "zircuit": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/48900?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "zkconsensys": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/59144?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "zkpolygon": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1101?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "zksync": {
+        "quorum": 1,
         "uris": [
             "https://optimism.publicnode.com",
             "https://mainnet.optimism.io",

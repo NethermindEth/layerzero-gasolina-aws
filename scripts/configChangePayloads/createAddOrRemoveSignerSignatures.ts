@@ -84,11 +84,7 @@ const main = async () => {
             )
 
             const signatures = await getSignatures(keyIds, hash, chainName)
-            const signaturesPayload = getSignaturesPayload(
-                signatures,
-                quorum,
-                chainName,
-            )
+            const signaturesPayload = getSignaturesPayload(signatures, quorum)
 
             results[chainName] = {
                 args: {
