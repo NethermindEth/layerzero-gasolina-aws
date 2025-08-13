@@ -1,0 +1,61 @@
+name: Deploy Gasolina API
+
+on:
+  push:
+    branches:
+      - main 
+  workflow_dispatch:
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_SESSION_NAME: GasolinaAPI-ECS-CICD
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-region: ${{ env.AWS_REGION }}
+        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+        role-duration-seconds: 1800 # 30 minutes
+        role-session-name: ${{ env.ROLE_SESSION_NAME }}
+    
+    - name: Install nvm
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22.14.0'
+    
+    - name: Install dependencies
+      run: yarn install
+    
+    - name: Replace env variables
+      run: npx ts-node scripts/utils/providers.ts replace
+      env:
+        INFURA_API_KEY: ${{ secrets.INFURA_API_KEY }}
+        ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+        BERA_BEARER_TOKEN: ${{ secrets.BERA_BEARER_TOKEN }}
+        TON_API_KEY: ${{ secrets.TON_API_KEY }}
+        MOVEMENT_BEARER_TOKEN: ${{ secrets.MOVEMENT_BEARER_TOKEN }}
+        LENS_TOKEN: ${{ secrets.LENS_TOKEN }}
+        ERPC_AUTH_TOKEN: ${{ secrets.ERPC_AUTH_TOKEN }}
+
+    - name: AWS CDK synth
+      working-directory: cdk/gasolina
+      run: npx cdk synth
+
+    - name: AWS CDK Diff
+      working-directory: cdk/gasolina
+      run: npx cdk diff
+
+    - name: AWS CDK Deploy
+      working-directory: cdk/gasolina
+      run: npx cdk deploy
