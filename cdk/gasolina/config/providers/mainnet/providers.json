@@ -446,6 +446,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "plasma": {
+        "quorum": 1,
+        "uris": [
+            
+        ]
+    },
     "plume": {
         "quorum": 1,
         "uris": [
