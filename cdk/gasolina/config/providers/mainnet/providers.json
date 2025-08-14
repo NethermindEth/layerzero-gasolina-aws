@@ -20,8 +20,15 @@
     "aptos": {
         "quorum": 1,
         "uris": [
-            "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql",
-            "https://aptos-rest.publicnode.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
+            {
+                "uri": "https://fullnode.mainnet.aptoslabs.com/v1?event-indexer=https://api.mainnet.aptoslabs.com/v1/graphql"
+            },
+            {
+                "uri": "https://api.us1.shinami.com/aptos/node/v1?event-indexer=https://api.us1.shinami.com/aptos/graphql/v1",
+                "headers": {
+                    "Authorization": "Bearer ${SHINAMI_BEARER_TOKEN}"
+                }
+            }
         ]
     },
     "arbitrum": {
