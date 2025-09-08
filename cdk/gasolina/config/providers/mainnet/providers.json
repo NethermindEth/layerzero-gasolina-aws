@@ -506,6 +506,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/148?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "silicon": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2355?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "solana": {
         "quorum": 1,
         "uris": [
