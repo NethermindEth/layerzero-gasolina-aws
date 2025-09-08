@@ -17,6 +17,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/33139?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "apexfusionnexus": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/9069?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "aptos": {
         "quorum": 1,
         "uris": [
