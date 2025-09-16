@@ -560,6 +560,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/964?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "sui": {
+        "quorum": 1,
+        "uris": [
+            "https://fullnode.mainnet.sui.io/"
+        ]
+    },
     "superposition": {
         "quorum": 1,
         "uris": [
