@@ -428,6 +428,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/6900?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "og": {
+        "quorum": 1,
+        "uris": [
+            "https://evmrpc.0g.ai"
+        ]
+    },
     "opbnb": {
         "quorum": 1,
         "uris": [
