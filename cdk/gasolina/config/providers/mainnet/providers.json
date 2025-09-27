@@ -186,6 +186,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/41923?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "ethereal-mainnet-0": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5064014?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "ethereum": {
         "quorum": 1,
         "uris": [
