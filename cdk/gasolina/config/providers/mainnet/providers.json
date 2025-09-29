@@ -694,6 +694,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/324?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "zkverify": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1408?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "zora": {
         "quorum": 1,
         "uris": [
