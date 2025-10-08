@@ -446,6 +446,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/204?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "openledger": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1612?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "optimism": {
         "quorum": 1,
         "uris": [
