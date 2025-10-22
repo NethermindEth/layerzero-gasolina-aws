@@ -396,6 +396,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/34443?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "monad": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/143?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "moonbeam": {
         "quorum": 1,
         "uris": [
