@@ -180,6 +180,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/53935?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "doma": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/97477?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "dos": {
         "quorum": 1,
         "uris": [
