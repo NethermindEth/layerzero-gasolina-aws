@@ -306,6 +306,12 @@
             "https://rest.initia.xyz?event-indexer=https://graphql.initia.xyz/v1/graphql"
         ]
     },
+    "injectiveevm": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1776?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "ink": {
         "quorum": 1,
         "uris": [
