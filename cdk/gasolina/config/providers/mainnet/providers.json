@@ -452,6 +452,12 @@
             "https://maizenet-rpc.usecorn.com"
         ]
     },
+    "nexera": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/7208?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "nibiru": {
         "quorum": 1,
         "uris": [
