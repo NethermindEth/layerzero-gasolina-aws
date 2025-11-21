@@ -324,6 +324,13 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/8822?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "iotal1": {
+        "quorum": 1,
+        "uris": [
+            "https://api.mainnet.iota.cafe/",
+            "https://rpc.ankr.com/iota_mainnet"
+        ]
+    },
     "islander": {
         "quorum": 1,
         "uris": [
