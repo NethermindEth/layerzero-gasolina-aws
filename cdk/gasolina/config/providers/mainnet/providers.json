@@ -246,6 +246,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/122?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "gatelayer": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/10088?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "glue": {
         "quorum": 1,
         "uris": [
