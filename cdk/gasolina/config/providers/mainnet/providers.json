@@ -672,8 +672,7 @@
     "ton": {
         "quorum": 1,
         "uris": [
-            "https://toncenter.com/api/v2?api-key=${TON_API_KEY}&v3-endpoint=https://toncenter.com/api/v3",
-            "https://toncenter.com/api/v2?v3-endpoint=https://toncenter.com/api/v3"
+            "https://toncenter.com/api/v2?api-key=${TON_API_KEY}&v3-endpoint=https://toncenter.com/api/v3"
         ]
     },
     "tron": {
