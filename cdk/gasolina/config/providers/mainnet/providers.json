@@ -549,10 +549,22 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "redbelly": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/151?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "rootstock": {
         "quorum": 1,
         "uris": [
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/30?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "sagaevm": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5464?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "scroll": {
