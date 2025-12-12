@@ -120,6 +120,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/42220?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "citrea": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4114?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "codex": {
         "quorum": 1,
         "uris": [
@@ -395,6 +401,12 @@
         "quorum": 1,
         "uris": [
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/5000?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "megaeth": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4326?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "merlin": {
