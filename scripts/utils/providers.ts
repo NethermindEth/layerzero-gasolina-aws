@@ -60,7 +60,8 @@ const configs = [
     { envVarName: 'TON_API_KEY', anchorString: 'TON_API_KEY' },
     { envVarName: 'MOVEMENT_BEARER_TOKEN', anchorString: 'MOVEMENT_BEARER_TOKEN' },
     { envVarName: 'LENS_TOKEN', anchorString: 'LENS_TOKEN' },
-    { envVarName: 'ERPC_AUTH_TOKEN', anchorString: 'ERPC_AUTH_TOKEN' }
+    { envVarName: 'ERPC_AUTH_TOKEN', anchorString: 'ERPC_AUTH_TOKEN' },
+    { envVarName: 'DRPC_API_KEY', anchorString: 'DRPC_API_KEY' }
 ];
 
 // Get command line argument

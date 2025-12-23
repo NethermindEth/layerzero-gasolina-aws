@@ -642,7 +642,8 @@
     "starknet": {
         "quorum": 1,
         "uris": [
-            "https://starknet-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+            "https://starknet-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
+            "https://lb.drpc.live/starknet/${DRPC_API_KEY}"
         ]
     },
     "story": {
