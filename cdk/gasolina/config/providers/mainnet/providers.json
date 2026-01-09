@@ -306,6 +306,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/43111?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "horizen": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/26514?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "hyperliquid": {
         "quorum": 1,
         "uris": [
