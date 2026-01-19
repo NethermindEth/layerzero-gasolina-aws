@@ -373,6 +373,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2222?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "kite": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2366?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "klaytn": {
         "quorum": 1,
         "uris": [
@@ -531,6 +537,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3338?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "pharos": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1672?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "plasma": {
         "quorum": 1,
         "uris": [
@@ -571,6 +583,12 @@
         "quorum": 1,
         "uris": [
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/151?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
+    "rise": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4153?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "rootstock": {
