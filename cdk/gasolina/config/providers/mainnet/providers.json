@@ -60,12 +60,6 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/8453?token=${ERPC_AUTH_TOKEN}"
         ]
     },
-    "bb1": {
-        "quorum": 1,
-        "uris": [
-            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2525?token=${ERPC_AUTH_TOKEN}"
-        ]
-    },
     "bera": {
         "quorum": 1,
         "uris": [
@@ -130,12 +124,6 @@
         "quorum": 1,
         "uris": [
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/81224?token=${ERPC_AUTH_TOKEN}"
-        ]
-    },
-    "concrete": {
-        "quorum": 1,
-        "uris": [
-            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/12739?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "conflux": {
@@ -549,12 +537,6 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/9745?token=${ERPC_AUTH_TOKEN}"
         ]
     },
-    "plume": {
-        "quorum": 1,
-        "uris": [
-            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/98865?token=${ERPC_AUTH_TOKEN}"
-        ]
-    },
     "plumephoenix": {
         "quorum": 1,
         "uris": [
@@ -571,12 +553,6 @@
         "quorum": 1,
         "uris": [
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1380012617?token=${ERPC_AUTH_TOKEN}"
-        ]
-    },
-    "real": {
-        "quorum": 1,
-        "uris": [
-            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/111188?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "redbelly": {
