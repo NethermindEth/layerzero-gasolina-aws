@@ -120,6 +120,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4114?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "chiliz": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/88888?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "codex": {
         "quorum": 1,
         "uris": [
@@ -335,6 +341,12 @@
         "uris": [
             "https://api.mainnet.iota.cafe/",
             "https://rpc.ankr.com/iota_mainnet"
+        ]
+    },
+    "irys": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/3282?token=${ERPC_AUTH_TOKEN}"
         ]
     },
     "islander": {
