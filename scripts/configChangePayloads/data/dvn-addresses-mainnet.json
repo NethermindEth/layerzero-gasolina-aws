@@ -126,5 +126,8 @@
     "zkpolygon": "0x7a7ddc46882220a075934f40380d3a7e1e87d409",
     "zkverify": "0x38179d3bfa6ef1d69a8a7b0b671ba3d8836b2ae8",
     "zksync": "0xb183c2b91cf76cad13602b32ada2fd273f19009c",
-    "zora": "0xa7b5189bca84cd304d8553977c7c614329750d99"
+    "zora": "0xa7b5189bca84cd304d8553977c7c614329750d99",
+    "rise": "0x8d77d35604a9f37f488e41d1d916b2a0088f82dd",
+    "kite": "0xabc9b1819cc4d9846550f928b985993cf6240439",
+    "pharos": "0xdd7b5e1db4aafd5c8ec3b764efb8ed265aa5445b"
 }
