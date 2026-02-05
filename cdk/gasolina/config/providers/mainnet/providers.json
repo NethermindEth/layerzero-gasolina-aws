@@ -439,6 +439,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/1088?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "moca": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/2288?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "mode": {
         "quorum": 1,
         "uris": [
