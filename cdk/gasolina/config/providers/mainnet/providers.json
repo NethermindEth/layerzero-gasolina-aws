@@ -421,6 +421,12 @@
             "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4326?token=${ERPC_AUTH_TOKEN}"
         ]
     },
+    "meritcircle": {
+        "quorum": 1,
+        "uris": [
+            "https://erpc.nethermind.io/layerzero-gasolina-api/evm/4337?token=${ERPC_AUTH_TOKEN}"
+        ]
+    },
     "merlin": {
         "quorum": 1,
         "uris": [
