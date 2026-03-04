@@ -1,0 +1,69 @@
+name: Destroy Gasolina API
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "destroy" to confirm teardown'
+        required: true
+      project_name:
+        description: 'Project name (used in S3 bucket name)'
+        required: true
+        default: 'layerzero-gasolina'
+      environment:
+        description: 'Environment (mainnet or testnet)'
+        required: true
+        default: 'mainnet'
+
+env:
+  AWS_REGION: us-east-1
+  ROLE_SESSION_NAME: GasolinaAPI-ECS-CICD
+
+jobs:
+  destroy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Validate confirmation
+      if: ${{ github.event.inputs.confirm != 'destroy' }}
+      run: |
+        echo "Confirmation input must be 'destroy'. Got: '${{ github.event.inputs.confirm }}'"
+        exit 1
+
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-region: ${{ env.AWS_REGION }}
+        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+        role-duration-seconds: 1800 # 30 minutes
+        role-session-name: ${{ env.ROLE_SESSION_NAME }}
+
+    - name: Install nvm
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22.14.0'
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: AWS CDK Destroy
+      working-directory: cdk/gasolina
+      run: npx cdk destroy --force
+
+    - name: Empty and delete S3 bucket
+      run: |
+        BUCKET="providerconfigs-${{ github.event.inputs.project_name }}-${{ github.event.inputs.environment }}-gasolina"
+        echo "Deleting S3 bucket: $BUCKET"
+        aws s3 rm s3://$BUCKET --recursive
+        aws s3 rb s3://$BUCKET
+
+    - name: Delete metric log group
+      run: |
+        echo "Deleting CloudWatch log group: gasolina-metric-log"
+        aws logs delete-log-group --log-group-name gasolina-metric-log
