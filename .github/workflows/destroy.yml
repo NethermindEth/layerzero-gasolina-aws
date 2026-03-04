@@ -6,14 +6,6 @@ on:
       confirm:
         description: 'Type "destroy" to confirm teardown'
         required: true
-      project_name:
-        description: 'Project name (used in S3 bucket name)'
-        required: true
-        default: 'layerzero-gasolina'
-      environment:
-        description: 'Environment (mainnet or testnet)'
-        required: true
-        default: 'mainnet'
 
 env:
   AWS_REGION: us-east-1
@@ -58,7 +50,11 @@ jobs:
 
     - name: Empty and delete S3 bucket
       run: |
-        BUCKET="providerconfigs-${{ github.event.inputs.project_name }}-${{ github.event.inputs.environment }}-gasolina"
+        BUCKET=$(aws cloudformation describe-stack-resources \
+          --stack-name Oracle \
+          --logical-resource-id ProviderConfigsBucket-Gasolina \
+          --query "StackResources[0].PhysicalResourceId" \
+          --output text)
         echo "Deleting S3 bucket: $BUCKET"
         aws s3 rm s3://$BUCKET --recursive
         aws s3 rb s3://$BUCKET
