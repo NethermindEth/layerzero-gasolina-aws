@@ -48,18 +48,3 @@ jobs:
       working-directory: cdk/gasolina
       run: npx cdk destroy --force
 
-    - name: Empty and delete S3 bucket
-      run: |
-        BUCKET=$(aws cloudformation describe-stack-resources \
-          --stack-name Oracle \
-          --logical-resource-id ProviderConfigsBucket-Gasolina \
-          --query "StackResources[0].PhysicalResourceId" \
-          --output text)
-        echo "Deleting S3 bucket: $BUCKET"
-        aws s3 rm s3://$BUCKET --recursive
-        aws s3 rb s3://$BUCKET
-
-    - name: Delete metric log group
-      run: |
-        echo "Deleting CloudWatch log group: gasolina-metric-log"
-        aws logs delete-log-group --log-group-name gasolina-metric-log
